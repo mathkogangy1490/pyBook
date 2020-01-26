@@ -1,0 +1,29 @@
+{% extends "base_books.html" %}
+
+{% block content %}
+
+    <h1>{{ object.title }}</h1><br/>
+    <div class="row">
+         <div class="col-md-2"></div>
+         <div class="col-md-8 panel panel-default">
+            <li>Authors:
+              {% for author in object.authors.all %}
+                      {{ author }}
+                     {% if not forloop.last %},
+                     {% else %}
+                     {% endif %}
+               {% endfor %}
+              </li>
+              <li>Publisher:
+                  {{ object.publisher }}
+               </li>
+               <li>Publication_date:
+                 {{ object.publication_date }}
+                </li>
+          </div>
+          <div class="col-md-2"></div>
+     </div>
+
+
+
+{% endblock content %}

@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %} Books Application Site {% endblock %}
+
+{% block sidebar %}
+{{ block.super }}
+
+    <ul class="nav">
+        <li class="nav-item"><a href="/books/" class="active nav-link">Books_Home</a></li>
+    </ul>
+{% endblock %}

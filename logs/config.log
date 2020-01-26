@@ -1,0 +1,5 @@
+[25/Jan/2020 20:09:29] DEBUG [polls.views:43] vote().question_id: 3
+[25/Jan/2020 20:10:11] DEBUG [polls.views:43] vote().question_id: 2
+[25/Jan/2020 20:50:01] DEBUG [polls.views:43] vote().question_id: 3
+[25/Jan/2020 20:50:06] DEBUG [polls.views:43] vote().question_id: 3
+[25/Jan/2020 20:50:11] DEBUG [polls.views:43] vote().question_id: 3
